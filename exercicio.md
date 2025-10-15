@@ -60,28 +60,28 @@ if __name__ == "__main__":
 
 ## Sua Tarefa
 
-1.  **Análise:** Identifique quais princípios SOLID estão sendo violados no código acima. Escreva uma breve explicação para cada violação encontrada.
+1. **Análise:** Identifique quais princípios SOLID estão sendo violados no código acima. Escreva uma breve explicação para cada violação encontrada.
 
-2.  **Refatoração:** Refatore o código para que ele atenda aos 5 princípios SOLID. Crie as classes e interfaces (classes abstratas em Python) que julgar necessárias. O objetivo é que o novo sistema permita adicionar novas formas de pagamento e novos métodos de notificação **sem alterar o código existente**.
-    -   **Dica:** Pense em separar as responsabilidades (SRP), criar abstrações para pagamentos e notificações (DIP) e permitir a extensão do sistema (OCP).
+2. **Refatoração:** Refatore o código para que ele atenda aos 5 princípios SOLID. Crie as classes e interfaces (classes abstratas em Python) que julgar necessárias. O objetivo é que o novo sistema permita adicionar novas formas de pagamento e novos métodos de notificação **sem alterar o código existente**.
+    - **Dica:** Pense em separar as responsabilidades (SRP), criar abstrações para pagamentos e notificações (DIP) e permitir a extensão do sistema (OCP).
 
-3.  **Explicação:** Junto ao código refatorado, adicione comentários ou um texto explicando as mudanças que você fez e como elas resolvem os problemas identificados, conectando cada mudança a um ou mais princípios SOLID.
+3. **Explicação:** Junto ao código refatorado, adicione comentários ou um texto explicando as mudanças que você fez e como elas resolvem os problemas identificados, conectando cada mudança a um ou mais princípios SOLID.
 
 ## Bônus (Opcional)
 
 Após a refatoração, demonstre a flexibilidade do seu novo design adicionando:
 
--   Um novo método de pagamento: **Pix**.
--   Um novo método de notificação: **SMS**.
+- Um novo método de pagamento: **Pix**.
+- Um novo método de notificação: **SMS**.
 
 Mostre como o sistema lida com essas novas funcionalidades sem a necessidade de modificar as classes de processamento de pedidos já existentes.
 
 ## Instruções de Entrega
 
-1.  **Faça um Fork** deste repositório.
-2.  Em seu repositório "forkado", crie uma nova pasta chamada `resolucao`.
-3.  Dentro da pasta `resolucao`, adicione:
-    *   Um arquivo Python (ex: `sistema_refatorado.py`) com o código final refatorado.
-    *   Um arquivo `ANALISE.md` contendo a sua análise das violações dos princípios SOLID e a explicação das suas refatorações.
-4.  Faça o commit e o push das suas alterações para o seu fork.
-5.  **Abra um Pull Request (PR)** do seu fork para este repositório original. O sistema de integração contínua irá verificar sua solução.
+1. **Faça um Fork** deste repositório.
+2. Em seu repositório "forkado", crie uma nova pasta chamada `resolucao`.
+3. Dentro da pasta `resolucao`, adicione:
+    - Um arquivo Python (ex: `sistema_refatorado.py`) com o código final refatorado.
+    - Um arquivo `ANALISE.md` contendo a sua análise das violações dos princípios SOLID e a explicação das suas refatorações.
+4. Faça o commit e o push das suas alterações para o seu fork.
+5. **Abra um Pull Request (PR)** do seu fork para este repositório original. O sistema de integração contínua irá verificar sua solução.
